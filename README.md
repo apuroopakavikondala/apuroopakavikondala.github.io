@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profile.jpeg" width="200" alt="Apuroopa Kavikondala">
+  <img src="profile.png" width="200" alt="Apuroopa Kavikondala">
 </p>
 
 <h1 align="center">Apuroopa Kavikondala</h1>
