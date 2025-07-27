@@ -10,26 +10,30 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       line-height: 1.6;
       margin: 40px;
-      text-align: center;
     }
 
     a {
-      color: #555555;            /* soft gray links */
+      color: #555555; /* gray links */
       text-decoration: none;
+      font-weight: 500;
     }
 
     a:hover {
       text-decoration: underline;
     }
 
+    .center {
+      text-align: center;
+    }
+
     img.profile {
-      width: 200px;
+      width: 175px;
       border-radius: 8px;
       margin-bottom: 10px;
     }
 
     h1 {
-      margin-bottom: 5px;
+      margin-top: 0;
       font-size: 32px;
     }
 
@@ -38,20 +42,53 @@
       color: #333333;
       font-weight: normal;
     }
+
+    .section {
+      max-width: 800px;
+      margin: 40px auto;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
   </style>
 </head>
 <body>
 
-  <img src="profile.png" alt="Apuroopa Kavikondala" class="profile">
+  <div class="center">
+    <img src="profile.png" alt="Apuroopa Kavikondala" class="profile">
+    <h1>Apuroopa Kavikondala</h1>
+    <h4>
+      <a href="mailto:apuroopakavikondala@gmail.com">Email</a> &middot;
+      <a href="https://linkedin.com/in/apuroopakavikondala" target="_blank">LinkedIn</a> &middot;
+      <a href="https://github.com/apuroopakavikondala" target="_blank">GitHub</a> &middot;
+      <a href="https://apuroopakavikondala.substack.com/" target="_blank">Substack</a>
+    </h4>
+  </div>
 
-  <h1>Apuroopa Kavikondala</h1>
-  <h4>CS + Writing @ Purdue · Building for AI and Mental Health</h4>
+  <div class="section">
+    <p>I am a sophomore at Purdue University, studying Computer Science, Creative Writing, and Entrepreneurship. I am passionate about building software that intersects with AI, storytelling, and mental health advocacy.</p>
 
-  <p>
-    <a href="mailto:you@example.com">Email</a> ·
-    <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> ·
-    <a href="https://github.com/yourusername">GitHub</a>
-  </p>
+    <h3>Currently:</h3>
+    <ul>
+      <li>Working as a <strong>Software Engineering Intern</strong> at Opus Inspection</li>
+      <li>Helping students succeed as a <strong>Student Success TA</strong> for <em>CS180: Object-Oriented Programming</em></li>
+      <li>Serving as <strong>Marketing Director</strong> for <em>Purdue CAPS</em>, the university's official mental health resource</li>
+    </ul>
+
+    <h3>At Purdue:</h3>
+    <ul>
+      <li>Hired as a <strong>Teaching Assistant</strong> for OOP in Purdue’s CS department before being promoted to the Student Success TA role</li>
+      <li>Worked as a <strong>Web App Developer</strong> for <em>Hack The Future</em>, Purdue's top CS club, where our team built an application for gambling recovery for Chicago nonprofit, ASafeHaven. Check out our team's demo <a href="#">here</a>!</li>
+    </ul>
+
+    <h3>Before Purdue:</h3>
+    <ul>
+      <li>Interned at <strong>Alongside Care</strong>, a mental health startup supporting high schoolers via 24/7 chatbot tools</li>
+      <li>Published 5 books about mental health — a fiction trilogy and two personal nonfiction works</li>
+      <li>Spoke at the <strong>Bill &amp; Melinda Gates Foundation</strong> on youth mental health advocacy</li>
+    </ul>
+  </div>
 
 </body>
 </html>
