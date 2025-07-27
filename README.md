@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="profile.png" width="200" alt="Apuroopa Kavikondala">
+  <img src="profile.png" width="175" alt="Apuroopa Kavikondala">
 </p>
+<h1 align="center" style="margin-top: -10000px;">Apuroopa Kavikondala</h1>
 
-<h1 align="center">Apuroopa Kavikondala</h1>
 
 <h4 align="center">
   <a href="mailto:apuroopakavikondala@gmail.com">Email</a> ·
